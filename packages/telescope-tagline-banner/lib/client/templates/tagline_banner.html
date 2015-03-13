@@ -1,5 +1,8 @@
 <template name="taglineBanner">
 {{#if showTaglineBanner}}
-  <h3 class="grid tagline"><span>{{getSetting "tagline"}}</span></h3>
+<div class="grid tagline-container">
+  <h3 class="grid tagline"><span>{{getSetting "title"}}</span></h3>
+  <h4 class="grid description"><span>{{getSetting "tagline"}}</span></h4>
+</div>
 {{/if}}
 </template>

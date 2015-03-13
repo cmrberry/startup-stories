@@ -8,13 +8,22 @@
   text-align: center;
 }
 
-.tagline {
+.tagline-container {
 	background: url(/img/startup2.jpg);
 	background-size: cover;
 	color: #fff;
 	padding: 100px 0;
-	font-size: 4em;
+	margin-bottom: 10px;
+	text-align: center;
 }
+
+.tagline {
+	font-size: 4em;
+	margin:	0;
+}
+
+.description {font-size: 1.5em;}
+
 
 .post-upvote .upvote-link {
 	display: inline-block;
