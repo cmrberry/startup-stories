@@ -9,9 +9,29 @@
 }
 
 .tagline {
-background: url(/img/startup2.jpg);
-background-size: cover;
-color: #fff;
-padding: 100px 0;
-font-size: 4em;
+	background: url(/img/startup2.jpg);
+	background-size: cover;
+	color: #fff;
+	padding: 100px 0;
+	font-size: 4em;
+}
+
+.post-upvote .upvote-link {
+	display: inline-block;
+}
+
+.comments-link {
+	display: none;
+}
+
+.post-author {
+	display: none;
+}
+
+.post-time {
+	font-size: 10px;
+}
+
+.post-info {
+	text-align: center;
 }

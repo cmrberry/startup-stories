@@ -2,9 +2,9 @@
   //Navigation
   "menu": "Menu",
   "view": "View",
-  "top": "Top",
-  "new": "New",
-  "best": "Best",
+  "top": "Trending",
+  "new": "Newest",
+  "best": "Rocketships",
   "digest": "Digest",
   "users": "Users",
   "settings": "Settings",
@@ -295,7 +295,7 @@
   "load_more": "Load More",
 
   "most_popular_posts": "The most popular posts right now.",
-  "newest_posts": "The newest posts.",
+  "newest_posts": "The most recent posts.",
   "highest_ranked_posts_ever": "The all-time highest-ranked posts.",
 
   "the_profile_of": "The profile of",
