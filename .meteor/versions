@@ -113,6 +113,7 @@ stylus@1.0.6
 tap:i18n@1.4.1
 telescope-api@0.0.0
 telescope-base@0.0.0
+telescope-custom@1.0.0
 telescope-daily@0.0.0
 telescope-datetimepicker@1.0.3
 telescope-email@0.2.9
