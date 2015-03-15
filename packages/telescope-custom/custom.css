@@ -8,6 +8,10 @@
   text-align: center;
 }
 
+.header {
+	margin-bottom: 0;
+}
+
 .tagline-container {
 	background: url(/img/startup2.jpg);
 	background-size: cover;
@@ -15,11 +19,15 @@
 	padding: 100px 0;
 	margin-bottom: 10px;
 	text-align: center;
+	width: 100%;
+	margin: 0 0 10px 0;
+	max-width: none;
 }
 
 .tagline {
 	font-size: 4em;
 	margin:	0;
+	max-width: none
 }
 
 .description {font-size: 1.5em;}

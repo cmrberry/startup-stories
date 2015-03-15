@@ -14,6 +14,10 @@ Template[getTemplate('layout')].helpers({
   footer: function () {
     return getTemplate('footer');
   },
+  taglineBanner: function () {
+    return getTemplate('taglineBanner');
+  },
+
   pageName : function(){
     return getCurrentTemplate();
   },
@@ -24,7 +28,7 @@ Template[getTemplate('layout')].helpers({
     return getSetting('extraCode');
   },
   heroModules: function () {
-    return heroModules;
+    return _.sortBy(heroModules, 'order');
   },
   getTemplate: function () {
     return getTemplate(this.template);

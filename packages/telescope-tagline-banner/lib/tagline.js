@@ -1,7 +1,4 @@
-heroModules.push({
-  template: 'taglineBanner',
-  order: 0
-});
+
 
 var showTaglineBanner = {
   propertyName: 'showTaglineBanner',

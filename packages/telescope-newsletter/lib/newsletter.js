@@ -183,7 +183,8 @@ viewParameters.campaign = function (terms) {
 }
 
 heroModules.push({
-  template: 'newsletterBanner'
+  template: 'newsletterBanner',
+  order: 2
 });
 
  function subscribeUserOnCreation (user) {
