@@ -44,3 +44,38 @@
 .post-info {
 	text-align: center;
 }
+
+@media screen and (min-width: 30em) {
+.post-heading .post-title {
+font-size: 16px;
+}
+}
+
+@media screen and (min-width: 90em) {
+.post-heading .post-title {
+font-size: 24px;
+}
+}
+
+.posts-grid .post-info {
+padding: 10px;
+position: absolute;
+top: 0;
+height: calc(100% - 40px);
+width: 100%;
+background-color: rgba(0,0,0,.8);
+padding: 30px;
+}
+
+.posts-grid .post-info:hover {
+background: rgba(67, 144, 138, 0.901961);
+display: inline-block;
+}
+
+.posts-grid .post-heading .post-title, .posts-grid .post-heading .post-title:visited {
+color: #ffffff !important;
+}
+
+.posts-grid .post-category {
+	display: none;
+}
