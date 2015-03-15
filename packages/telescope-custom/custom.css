@@ -55,7 +55,19 @@
 
 @media screen and (min-width: 30em) {
 .post-heading .post-title {
+font-size: 12px;
+}
+}
+
+@media screen and (min-width: 45em) {
+.post-heading .post-title {
 font-size: 16px;
+}
+}
+
+@media screen and (min-width: 60em) {
+.post-heading .post-title {
+font-size: 24px;
 }
 }
 
@@ -71,11 +83,6 @@ margin-top: 20%;
 }
 }
 
-@media screen and (min-width: 60em) {
-.post-heading .post-title {
-font-size: 24px;
-}
-}
 
 .posts-grid .post-info {
 padding: 10px;
