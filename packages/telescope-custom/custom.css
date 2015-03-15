@@ -90,7 +90,7 @@ position: absolute;
 top: 0;
 height: calc(100% - 40px);
 width: 100%;
-background-color: rgba(0,0,0,.8);
+background-color: rgba(0,0,0,.65);
 padding: 0 20px;
 }
 
